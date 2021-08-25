@@ -15,8 +15,8 @@ class YingxServiceApplicationTests {
 
     @Test
     void contextLoads() {
-        Admin admin = adminDAO.queryByUsername("zzz");
-        System.out.println(admin);
+        Admin admin1 = adminDAO.queryByUsername("zzz");
+        System.out.println(admin1);
     }
 
 }
